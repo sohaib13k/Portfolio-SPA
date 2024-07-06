@@ -1,4 +1,4 @@
-### To know more about my journey, visit at sohaibk.me
+### To know more about my journey, visit at [sohaibk.me](sohaibk.me)
 
 
 <br>
