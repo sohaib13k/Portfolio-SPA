@@ -44,4 +44,4 @@
 
 
 
-*Credit to [Andreas](andyholes.xyz) for [code](https://github.com/andyholes/New-Simple-Portfolio)*
+*Credit to [Andreas](https://andyholes.xyz/) for [code](https://github.com/andyholes/New-Simple-Portfolio)*
