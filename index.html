@@ -1,168 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv=”Content-Security-Policy” content=”default-src ’self’; img-src *”>
-    <title>Portfolio - Andrés Hoyos García</title>
-    <!-- <meta name="description" content="Ingresa para conocer mas acerca de mi experiencia como Desarrollador Backend Java">
-    <link rel="icon" href="https://em-content.zobj.net/thumbs/120/apple/354/technologist-light-skin-tone_1f9d1-1f3fb-200d-1f4bb.png"> -->
+    <title>Portfolio - Sohaib Khan</title>
+    <meta name="description" content="Enter to learn more about my experience as a Software Developer">
+    <link rel="icon" href="https://sohaibk.me/open-files/code.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <ul class="nav-menu">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#about-me">Sobre mi</a></li>
-            <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#stack">Tecnologías</a></li>
-            <li><a href="#studies">Formación</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#stack">Tech Stack</a></li>
+            <li><a href="#studies">Studies</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    
+
     <div class="content">
         <section id="home">
             <div class="presentation">
-                <!-- <img class="picture" src="/assets/picture.webp" alt="Imagen de perfil"> -->
+                <img class="picture" src="/assets/photo.png" alt="profile picture">
                 <div class="greeting">
-                    <h1>Mavensoft</h1>
-                    <h2>Boost output through technical solutions</h2>
+                    <h1>Sohaib Khan</h1>
+                    <h2>Software Engineer</h2>
                 </div>
             </div>
         </section>
 
         <section id="about-me">
-            <h3>Mavensoft</h3>
-            <p>Hola! Soy Andrés Hoyos García</p>
-            <p>Me introduje al rubro del desarrollo web a inicios de 2023. Desde entonces he participado de proyectos diversos que me han permitido refinar mis habilidades técnicas y hacer un aporte de valor a mi empresa, poniendo siempre el foco en la experiencia de usuario y los requisitos del cliente. Esto lo logro a partir de prestar especial atención a la optimización de las funcionalidades, buscando siempre la forma de mejorar su rendimiento.</p>
-            <p>En mi experiencia también he tenido oportunidad de afianzar mis habilidades blandas al participar de equipos multidisciplinarios, manteniendo una comunicación efectiva y trabajando con agilidad.</p>        
-            <p>Para mi futuro espero poder explorar nuevos desafíos, y seguir contribuyendo al éxito de proyectos web a medida que crezco en el campo del desarrollo web y descubro nuevas tecnologías.</p>
-            <p>Si está interesado en mi perfil siéntase libre de contactarme y podremos acordar una entrevista!</p>
+            <h3>About Me</h3>
+            <p>I am a Software developer having experience in backend development in Java and Python.</p>
+            <p>
+                I am interested in adding value to the company by creating scalable and secure systems, optimizing
+                performance, and ensuring fast response times.
+                My problem-solving skills and ability to collaborate in multidisciplinary teams will contribute to
+                high-quality projects and adaptation to the
+                latest technologies.
+            </p>
+            <p>In the future, I hope to delve deeper into business logic and make key decisions at the architectural
+                level, ensuring that solutions are scalable, efficient, and aligned with the company's goals.</p>
         </section>
 
         <section id="experience">
-            <h3>💼 Experiencia</h3>
+            <h3>💼 Experience</h3>
 
             <div class="card exp">
-                <img src="/assets/mobydigital.webp" alt="MobyDigital" class="exp-icon">
+                <img src="/assets/infosys.svg" alt="infosys logo" class="exp-icon" width="150" height="150">
                 <div class="info">
-                    <h5>Desarrollador Java Junior</h5>
-                    <h6>en MobyDigital | Julio 2023 - Actualidad </h6>
-                    <p>Mis tareas dentro del equipo de backend de la empresa consisten principalmente en la creación de nuevas funcionalidades, optimización de las preexistentes y creación de test unitarios.<br/>
-El proyecto consta de una arquitectura de microservicios, desarrollado en Java 8 y con bases de datos MySQL. Trabajamos con el flujo GitFlow y aplicamos metodologías agiles bajo el marco de trabajo SCRUM.<br/>
-Entre las mejoras de rendimiento que lleve a cabo, la mas recurrente es la eliminación del “problema del N+1” a la hora de hacer consultas.
+                    <h5>Systems Engineer</h5>
+                    <h6>at Infosys | June 2021 - Nov 2023 </h6>
+                    <p>
+                        My tasks within the backend team of the company mainly consist of creating new functionalities,
+                        optimizing existing ones,
+                        and creating unit tests. The project has a microservices architecture, developed in Java 11 with
+                        Oracle, Postgres databases.
+                        We work with the GitFlow workflow and apply agile methodologies under the SCRUM framework.
                     </p>
                 </div>
-            </div>  
-            
-            <div class="card exp">
-                <img src="/assets/semillero.webp" alt="Semillero Latam" class="exp-icon">
-                <div class="info">
-                    <h5>Desarrollador Java Trainee</h5>
-                    <h6>en Semillero Latam | Febrero 2023 - Julio 2023</h6>
-                    <p>Forme parte del equipo de backend de Semillero. <br/>
-Se nos asigno la creación y mantenimiento de una API REST para la plataforma web de nuestro cliente.<br/>
-El proyecto se desarrollo en Java 11 con Spring Boot. De arquitectura monolítica y con base de datos MySQL. Adoptamos el modelo GitFlow para el control de versiones, con repositorios en Gitea.<br/>
-Las tareas que lleve a cabo consistieron en el analisis de requerimientos, desarrollo de nuevas funcionalidades, creacion de tests unitarios
-                    </p>
-                </div>
-            </div>                 
+            </div>
 
         </section>
 
         <section id="projects">
-            <h3>⭐ Proyectos autodidactas</h3>
-            <a href="https://github.com/andyholes/tienda-factor-it" target="_blank">
-                <div class="card">
-                    <h5>Aplicación Fullstack - "Tienda FACTOR IT"</h5>
-                    <p>Si bien me desempeño principalmente como desarrollador de backend, 
-                        también tengo experiencia usando la librería ReactJS para crear interfaces de usuario basadas en componentes reutilizables.
-                        De este modo además de trabajar en el desarrollo del lado del servidor, 
-                        también puedo participar del diseño, creación y mantenimiento del lado del cliente.
-                        </p>
-                </div>
-            </a>
-            <a href="https://github.com/andyholes/microservices-example-project" target="_blank">
-                <div class="card">
-                    <h5>Arquitectura de Microservicios - "Shopping Online"</h5>
-                    <p>Proyecto autodidacta de microservicios aplicado a una tienda online.
-                        Los módulos tienen funcionalidades relativas a Ordenes, Productos,
-                        Inventario y Notificaciones. La comunicación es sincrónica mediante
-                        WebClient y asíncrona mediante MessageBrokers (Kafka).
-                        Se implementa un API Gateway con KeyCloak para la autenticación,
-                        Service Discovery con Netflix Eureka, Load Balancer, Circuit Breaker y
-                        Distributed Tracing. Aun esta en etapa de desarrollo.
-                        </p>
-                </div>
-            </a>
-            <a href="https://github.com/andyholes/smsweather" target="_blank">
-                <div class="card">
-                    <h5>API REST - "SMS Weather"</h5>
-                    <p>Esta API implementa una base de datos MongoDB donde se almacenan números de teléfono y ubicaciones, 
-                        que son usadas para realizar consultas a la APIs "Geocoding API" y "Weather API" para obtener las coordenadas y el clima de una ciudad.
-                        Luego estos datos serían enviados a cada usuario vía SMS, a través de la integración de Twilio SMS API. 
-                        Además, se implementa un sistema de verificación de usuario con generación de código aleatorio.
-                    </p>
-                </div>
-            </a>
+            <h3>⭐ Projects</h3>
+            <div class="card">
+                <h5>Clifftip - Reports Management Portal</h5>
+                <p>
+                    It's a comprehensive system designed to streamline the management of various
+                    company reports, specifically tailored for use by management and director-level entities. This
+                    portal automatically fetches reports from the Cloud or allows for manual uploads, subsequently
+                    generating an intuitive dashboard. By consolidating these functionalities, the portal
+                    significantly reduces the time and resources previously wasted on Excel or other software,
+                    thereby enhancing efficiency and productivity for the management team.
+                </p>
+                <a href="https://github.com/sohaib13k/clifftip" class="styled-link" target="_blank">Github <i
+                        class="fas fa-external-link-alt"></i></a>
+                <a href="https://clifftip.mavensoft.in/" class="styled-link" target="_blank">Live link <i
+                        class="fas fa-external-link-alt"></i></a>
+                <a href="https://sohaibk.me/open-files/cmi1.pdf" class="styled-link" target="_blank">Screenshot <i
+                        class="fas fa-external-link-alt"></i></a>
+            </div>
+
         </section>
 
         <section id="stack">
-            <h3>💻 Tecnologías</h3>
-            <h4>Lenguajes</h4>
+            <h3>💻 Tech Stack</h3>
+            <h4>Languages</h4>
             <ul>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>HTML y CSS</li>
-                <li>PHP (Básico)</li>
+                <li>Java, Python, Golang, Javascript</li>
             </ul>
             <h4>Frameworks</h4>
             <ul>
-                <li>Backend: SpringBoot</li>
-                <li>Frontend: ReactJs (basico)</li>
+                <li><strong>Backend: </strong>Spring Framework, Django</li>
+                <li><strong>Testing: </strong>JUnit, pytest</li>
+                <li><strong>Frontend: </strong>ReactJs, Svelte</li>
             </ul>
-            <h4>Bases de datos</h4>
+            <h4>Databases</h4>
             <ul>
-                <li>Relacionales: MySQL</li>
-                <li>No Relacionales: MongoDB</li>
+                <li><strong>Relational: </strong> PostgreSQL, Oracle SQL, SQLite</li>
+                <li><strong>Non-relational: </strong> MongoDB</li>
+            </ul>
+            <h4>Technologies</h4>
+            <ul>
+                <li>git, Docker, Kubernetes, Apache-Kafka, Maven, Linux, REST/SOAP</li>
+            </ul>
+            <h4>Tools</h4>
+            <ul>
+                <li>AWS, Jenkins, SonarQube, Kibana, Dynatrace, Grafana, Atlassian Jira/Confluence
+                </li>
             </ul>
         </section>
 
         <section id="studies">
-            <h3>📚 Formación academica</h3>
+            <h3>📚 Academics</h3>
             <div class="card">
-                <p>Enero 2021 - Actualidad</p>
-                <img src="/assets/info.webp" alt="Logo de la facultad de informatica" class="wide">
-                <h5>Analista Programador Universitario</h5>
-                <p>en Facultad de Informática - UNLP</p>
+                <p>07/2015 - 10/2020</p>
+                <img src="/assets/jamia-hamdard.png" alt="Logo de la facultad de informatica" class="wide" width="600" height="100">
+                <h5>Jamia Hamdard University</h5>
+                <p>Bachelor of Technology- Computer Science</p>
             </div>
-            <div class="card">
-                <p>Julio 2022 - Septiembre 2022</p>
-                <img src="/assets/Open-Bootcamp.webp" alt="Logo de Open-Bootcamp"class="wide">
-                <h5>Desarrollo Backend Java</h5>
-                <p>en Open-Bootcamp.com</p>
-            </div>
-            <div class="card">
-                <p>Enero 2014 - Noviembre 2019 </p>
-                <img src="/assets/fi.webp" alt="Logo de la facultad de ingenieria"class="wide">
-                <h5>Ingeniero Agrimensor</h5>
-                <p>en Facultad de Ingeniería - UNLP</p>
-            </div>
+            
         </section>
 
         <section id="contact">
-            <h3>💌 Contacto</h3>
+            <h3>💌 Contact</h3>
             <ul>
-                <li><a href="https://www.linkedin.com/in/andreshoyosgarcia" target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/andyholes/" target="_blank">GitHub</a></li>
-                <li><a href="mailto:andyholesdev@gmail.com" target="_blank">Email</a></li>
-                <li><a href="https://wa.me/5492317530198/" target="_blank">WhatsApp</a></li>
+                <li><a href="https://www.linkedin.com/in/sk13" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/sohaib13k/" target="_blank">GitHub</a></li>
+                <li><a href="mailto:sohaibk13@gmail.com" target="_blank">Email</a></li>
+                <li><a href="https://wa.me/919910931344/" target="_blank">WhatsApp</a></li>
             </ul>
         </section>
     </div>
-    <footer>andyholes - portfolio 2023</footer>
+    <footer>sohaib khan- portfolio 2024</footer>
 </body>
+
 </html>
